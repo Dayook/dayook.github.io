@@ -25,13 +25,8 @@ plainwhite:
     - page
     - post
   # generate social links in footer
-   navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
+
   social_links:
-    twitter: dayook
     github:  dayook
     linkedIn: 
     #dribbble: jekyll
