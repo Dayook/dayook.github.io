@@ -55,13 +55,6 @@ plainwhite:
 # Build settings
 theme: plainwhite
 
-plainwhite:
-  navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
-
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
