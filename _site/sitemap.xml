@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <urlset
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-        <url>
-            <loc></loc>
-	    <lastmod>2021-07-25T01:51:10+09:00</lastmod>
-            <priority>1.00</priority>
-        </url><url>
-                <loc>/jekyll/update/2021/07/23/welcome-to-jekyll.html</loc>
-                <lastmod>2021-07-23T03:03:05+09:00</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.80</priority>
-            </url><url>
-                <loc>/javascript/nodejs/2019/03/24/welcome-to-jekyll.html</loc>
-                <lastmod>2019-03-24T00:33:36+09:00</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.80</priority>
-            </url><url>
-                <loc>/2016/05/20/welcome-to-jekyll.html</loc>
-                <lastmod>2016-05-20T00:00:00+09:00</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.80</priority>
-            </url><url>
-                <loc>/junk/2016/05/20/this-post-demonstrates-post-content-styles.html</loc>
-                <lastmod>2016-05-20T00:00:00+09:00</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.80</priority>
-            </url><url>
-                <loc>/misc/2016/05/20/super-long-article.html</loc>
-                <lastmod>2016-05-20T00:00:00+09:00</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.80</priority>
-            </url><url>
-                <loc>/2016/05/20/my-example-post.html</loc>
-                <lastmod>2016-05-20T00:00:00+09:00</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.80</priority>
-            </url><url>
-                <loc>/misc/2016/05/19/super-short-article.html</loc>
-                <lastmod>2016-05-19T00:00:00+09:00</lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.80</priority>
-            </url></urlset>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/more-jekyll-themes</loc>
+<lastmod>2013-01-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>/text-formatting-examples</loc>
+<lastmod>2014-01-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>/getting-started</loc>
+<lastmod>2017-01-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>/about</loc>
+</url>
+<url>
+<loc>/blog</loc>
+</url>
+<url>
+<loc>/contact</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/projects/proj-1</loc>
+</url>
+<url>
+<loc>/projects/proj-2</loc>
+</url>
+<url>
+<loc>/projects/proj-3</loc>
+</url>
+<url>
+<loc>/projects/proj-4</loc>
+</url>
+<url>
+<loc>/projects/proj-5</loc>
+</url>
+</urlset>
