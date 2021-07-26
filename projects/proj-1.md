@@ -31,13 +31,13 @@ title: "Bit Library"
 ![socialdistance](/assets/img/projects/proj-1/socialdistance.png)
 짝수열이 예약 불가능 상태로 바뀐다.
 
-#### 💡 좌석 조회를 빠르게 하는 방법?
+#### 💡 좌석 조회를 빠르게
 
 처음엔 좌석을 조회할 때, **한 좌석의 예약 상태를 각각 읽고 하나씩 표시하는 방식**을 사용하였다. 그랬더니 속도가 너무 느려 사용성이 떨어진다는 판단이 들어 조회 방법을 바꿔보았다. :
 
-```java
+```Java
 	for (int i = 0; i < rowCount; i++) {
-			String row = String.valueOf((char) ('A' + i));
+			char row = (char) ('A' + i);
 			System.out.print("          ");
 			System.out.print(row + ": ");
 			for (int j : 한 행의 예약상태 배열) {
@@ -53,13 +53,14 @@ title: "Bit Library"
 
 위와 같이 좌석들의 **예약 상태를 한 행씩 불러와 (ex. A행에 속하는 모든 좌석 A1, A2, A3, ... A8의 예약상태를 한 번에 읽음) 그것을 배열에 저장**하고, 배열에 저장된 값들을 for문을 통해 불러와 표시를하니 좌석 조회 속도가 눈에 띄게 향상되었다.
 
-#### 💡 콘솔창에서 로그인 유지는 어떻게?
+#### 💡 콘솔창에서 로그인 유지
 
 서블릿이나 스프링을 사용한 웹개발에서 로그인 유지는 주로 session을 통해 이루어진다. 콘솔창에서는 어떻게 유지를 해야할지 고민하다가, **아이디를 저장하는 class를 따로 생성하고 로그인 시 myId라는 변수에 저장**하는 방식을 생각해냈다.
 
 이미 로그인을 한 상태라면 아이디가 필요한 영역에서 새로 아이디 입력을 요구하지 않고, myId에 저장된 값을 불러와 사용하는 식이다. 로그아웃 시, myId는 null으로 설정된다.
 
 **깃헙주소 　　 ┃** [https://github.com/Dayook/bitLibrary](https://github.com/Dayook/bitLibrary){:target="\_blank"}
+{% include carousel.html height="50" unit="%" duration="7" %}
 
 ### EPILOGUE
 
