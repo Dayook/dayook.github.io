@@ -9,10 +9,4 @@ plugins: [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 title: "Sohae"
 description: "Powered by Jekyll and GitHub Pages"
-author: "Paul Le"
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+author: "Sohae Kim"
