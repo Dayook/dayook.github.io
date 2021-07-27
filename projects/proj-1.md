@@ -35,7 +35,7 @@ title: "Bit Library"
 
 처음엔 좌석을 조회할 때, **한 좌석의 예약 상태를 각각 읽고 하나씩 표시하는 방식**을 사용하였다. 그랬더니 속도가 너무 느려 사용성이 떨어진다는 판단이 들어 조회 방법을 바꿔보았다. :
 
-```Java
+```java
 	for (int i = 0; i < rowCount; i++) {
 			char row = (char) ('A' + i);
 			System.out.print("          ");
