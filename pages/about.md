@@ -4,6 +4,27 @@ title: About
 permalink: /about
 ---
 
-# Portfolio Jekyll Theme
+# 저는
 
-This is a personal portfolio theme that I built from the ground up, using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). You can [check out the demo](lenpaul.github.io/portfolio-jekyll-theme/), and [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork), to get started.
+- 배우고 적용하는 것을 좋아합니다
+- 제 작업물의 개선점을 찾고자 합니다
+- 사용자 입장에서 생각하고자 합니다
+- 문제를 해결하려 합니다
+
+# 교육
+
+- 비트캠프 JAVA 웹개발 과정 수료
+  - 정보처리기사 취득
+- 부산대학교 사회학과 졸업
+  - 사회조사분석사 2급 취득
+  - 사회통계를 공부하며 분석력을 익혔습니다
+  - 컴퓨터활용, 사회통계학에서 좋은 성적을 거뒀습니다
+
+# 개발과는 관련 없지만...
+
+- 2020 공공데이터 언택트 해커톤 아이디어 부문 우수상
+- 2018 보훈문예공모전 이모티콘부문 최우수상
+
+을 수상한 적이 있습니다.
+
+이 때 느낀 성취감을 자양분으로, 프로젝트 진행 시 어려운 상황에도 완성을 향해 꾸준히 노력하고 있습니다.

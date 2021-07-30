@@ -5,6 +5,7 @@ title: "Bit Library"
 
 ---
 
+{% include carousel.html height="50" unit="%" duration="7" %}
 **개발기간 　　 ┃** 2021.04.29 - 2021.05.06
 
 **개발인원 　　 ┃** 2명
@@ -60,7 +61,6 @@ title: "Bit Library"
 이미 로그인을 한 상태라면 아이디가 필요한 영역에서 새로 아이디 입력을 요구하지 않고, myId에 저장된 값을 불러와 사용하는 식이다. 로그아웃 시, myId는 null으로 설정된다.
 
 **깃헙주소 　　 ┃** [https://github.com/Dayook/bitLibrary](https://github.com/Dayook/bitLibrary){:target="\_blank"}
-{% include carousel.html height="50" unit="%" duration="7" %}
 
 ### EPILOGUE
 
