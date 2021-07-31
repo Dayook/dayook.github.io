@@ -55,10 +55,10 @@
 <loc>/blog</loc>
 </url>
 <url>
-<loc>/contact</loc>
+<loc>/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>/projects/knock</loc>
 </url>
 <url>
 <loc>/projects/proj-1</loc>
@@ -70,9 +70,10 @@
 <loc>/projects/proj-3</loc>
 </url>
 <url>
-<loc>/projects/proj-4</loc>
+<loc>/projects/proj-5</loc>
 </url>
 <url>
-<loc>/projects/proj-5</loc>
+<loc>/projects/knock/knock2.html</loc>
+<lastmod>2021-07-31T14:31:12+09:00</lastmod>
 </url>
 </urlset>

@@ -9,6 +9,46 @@ layout: default
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="/assets/css/knock.css" rel="stylesheet">
+  <script type="text/JavaScript" src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+  <script>
+
+    Kakao.init('bcc078e14b45da8aab1c2afda496dea9');
+          try {
+            function sendLink() {
+              Kakao.Link.sendDefault({
+                objectType: 'feed',
+                content: {
+                  title: '{{ page.title }}',
+                  description: '김소해의 포트폴리오를 공유합니다!',
+                  imageUrl:
+                    'http://localhost:4000/assets/img/projects/proj-3/thumbnail.jpg',
+                  link: {
+                    mobileWebUrl: document.location.href,
+                    webUrl: document.location.href,
+                  },
+                },
+                buttons: [
+                  {
+                    title: '웹으로 보기',
+                    link: {
+                      mobileWebUrl: document.location.href,
+                      webUrl: document.location.href,
+                    },
+                  },
+                  {
+                    title: '앱으로 보기',
+                    link: {
+                      mobileWebUrl: document.location.href,
+                      webUrl: document.location.href,
+                    },
+                  },
+                ],
+              })
+            }
+            ; window.kakaoDemoCallback && window.kakaoDemoCallback()
+          }
+          catch (e) { window.kakaoDemoException && window.kakaoDemoException(e) }
+  </script>
 </head>
 <body>
 <div id="container">
@@ -19,15 +59,34 @@ class="d-flex justify-content-center align-items-center" style="padding:8em 0;">
   <br>
   <h1> Knock!綠!<br></h1><h2 style="font-weight:100">Knock Environment, Knock your life.<br>
  To make our planet greener.</h2>
-  <a href=#yup class="btn-get-started">
+  <a href=#campaign class="btn-get-started">
     상세보기</a><br><a href=#yup class="btn-get-started">개발과정</a></center>
 </div>
 </div>
 
-<div style="background-color:rgb(10, 61, 14); color:white;  padding:1em 0">
+<div class="knock-introduce">
 
 <br>
-<div class="project-outline">
+
+<div class="knock environment">
+  <center><h1 class="light">개발환경</h1><br>
+<div id='logos' style='line-height:5em; margin-top:4.5em'>
+  <img src="https://cdn.svgporn.com/logos/eclipse.svg" alt="eclipse" height=40; >
+  <img src="https://cdn.svgporn.com/logos/java.svg" alt="java" height=70;>
+  <img src="https://cdn.worldvectorlogo.com/logos/datagrip-icon.svg" alt="datagrip" height=60;  ;>
+  <img src="https://cdn.svgporn.com/logos/oracle.svg" alt="oracle" height=25; ><br>
+  <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="html" height=60; >
+  <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="css" height=60; >
+  <img src="https://cdn.worldvectorlogo.com/logos/jquery-1.svg" alt="jQuery" height=40; >
+  <img src="https://cdn.svgporn.com/logos/bootstrap.svg" alt="bootstrap" height=50; ><br>
+  <img src="https://cdn.svgporn.com/logos/spring.svg" alt="spring" height=40; >
+  <img src="https://cdn.svgporn.com/logos/visual-studio-code.svg" alt="visual-studio-code" height=50; >
+  <img src="https://cdn.svgporn.com/logos/tomcat.svg" alt="tomcat" height=50; >
+  <img src="https://cdn.worldvectorlogo.com/logos/notion-logo-1.svg" alt="notion" height=50; >
+  </center></div>
+
+
+<div class="knock">
   <center><h1 class="light">프로젝트 개요</h1></center>
 
      <!-- ======= Counts Section ======= -->
@@ -96,25 +155,44 @@ class="d-flex justify-content-center align-items-center" style="padding:8em 0;">
 		</section>
    
 </div>
-<h1 class="light">화면구현</h1>
-<div class="swiper-container" >
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper" style="height:100%">
-    <!-- Slides -->
-    <div class="swiper-slide"><img src="/assets/img/projects/proj-3/screen1.png"></div>
-    <div class="swiper-slide"><img src="/assets/img/projects/proj-3/screen2.png"></div>
-    <div class="swiper-slide"><img src="/assets/img/projects/proj-3/screen4.png"></div>
-    <div class="swiper-slide"><img src="/assets/img/projects/proj-3/screen5.png"></div>
-    <div class="swiper-slide"><img src="/assets/img/projects/proj-3/screen6.png"></div>
-    <div class="swiper-slide"><img src="/assets/img/projects/proj-3/screen7.png"></div>
-    <div class="swiper-slide"><img src="/assets/img/projects/proj-3/screen8.png"></div>
-    <div class="swiper-slide"><img src="/assets/img/projects/proj-3/screen9.png"></div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-  <!-- pips will go here -->
-  <h1 class="light" style="display:inline">상세보기</h1>(제가 맡은 기능)
+<div class="knock-detail">
+<div class="knock">
+  <center>
+  <h1 class="light">화면구현</h1>
+  <div class="swiper-container" >
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" style="height:100%">
+      <!-- Slides -->
+      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen1.png" target="_blank"><img src="/assets/img/projects/proj-3/screen1.png"></a></div>
+      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen2.png" target="_blank"><img src="/assets/img/projects/proj-3/screen2.png"></a></div>
+      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen4.png" target="_blank"><img src="/assets/img/projects/proj-3/screen4.png"></a></div>
+      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen5.png" target="_blank"><img src="/assets/img/projects/proj-3/screen5.png"></a></div>
+      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen6.png" target="_blank"><img src="/assets/img/projects/proj-3/screen6.png"></a></div>
+      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen7.png" target="_blank"><img src="/assets/img/projects/proj-3/screen7.png"></a></div>
+      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen8.png" target="_blank"><img src="/assets/img/projects/proj-3/screen8.png"></a></div>
+      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen9.png" target="_blank"><img src="/assets/img/projects/proj-3/screen9.png"></a></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- pips will go here -->
+
+    </div>
+    
+
+    <div class="knock" id="campaign">
+
+      <h1 class="light" >상세보기 <br>- CAMPAIGN</h1>
+      <h2>(제가 맡은 기능)</h2>
+      <button onclick="sendLink();" id="share" class="btn-funding"><i class="glyphicon glyphicon-share-alt"></i> </button>
+
+    </div>
+  </center>
+
+
+
+</div>
+</div>
 
 </div>
 

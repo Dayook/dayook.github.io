@@ -6,16 +6,15 @@ menu:
   - { name: "Projects", url: "" }
   - { name: "Blog", url: "blog" }
   - { name: "About", url: "about" }
-  - { name: "Contact", url: "contact" }
 
 #-------------------------------
 # Projects Section
 
 projects:
-  - { name: "Bit library", url: "proj-1" }
+  - { name: "knock!綠!", url: "knock" }
   - { name: "To-do List", url: "proj-2" }
+  - { name: "Bit library", url: "proj-1" }
   - { name: "knock!knock!", url: "proj-3" }
-  - { name: "Project Four", url: "proj-4" }
   - { name: "Project Five", url: "proj-5" }
 
 #-------------------------------
@@ -24,7 +23,7 @@ projects:
 social:
   - { icon: "instagram", link: "https://instagram.com/dayookk" }
   - { icon: "github", link: "https://github.com/dayook" }
-  - { icon: "linkedin", link: "https://linkedin.com/in/lenpaul" }
+  # - { icon: "linkedin", link: "https://linkedin.com/in/lenpaul" }
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 

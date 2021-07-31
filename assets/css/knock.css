@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: "Spoqa Han Sans Neo", "sans-serif";
 }
@@ -23,14 +26,10 @@ a:hover {
   color: #86db9f;
   text-decoration: none;
 }
-.light {
-  font-weight: 100;
-}
-.project-outline {
-  margin-top: 5em;
-}
+
 h1 {
   margin: 0;
+  display: inline-block;
 }
 
 h2,
@@ -41,6 +40,22 @@ h6 {
   font-weight: 100;
 }
 
+.knock-introduce {
+  background-color: rgb(10, 61, 14);
+  color: white;
+  padding: 1em 0;
+}
+
+.knock-detail {
+  background-color: white;
+  padding: 1em 0;
+}
+.light {
+  font-weight: 100;
+}
+.knock {
+  margin-top: 5em;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -192,8 +207,13 @@ h6 {
   border: 1px solid #d2d2d2;
 }
 
+:root {
+  --swiper-theme-color: rgb(10, 61, 14);
+}
+
 .swiper-slide {
   width: 80%;
+  margin: 5em 0;
 }
 
 @media (max-width: 768px) {
@@ -212,6 +232,9 @@ h6 {
     object-fit: cover;
     border: 1px solid #d2d2d2;
   }
+}
+.environment img {
+  display: inline-block;
 }
 
 /*--------------------------------------------------------------
