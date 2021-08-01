@@ -3,206 +3,290 @@ layout: default
 ---
 
 <!DOCTYPE html>
+
 <head>
- 
+
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="/assets/css/knock.css" rel="stylesheet">
   <script type="text/JavaScript" src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
   <script>
 
     Kakao.init('bcc078e14b45da8aab1c2afda496dea9');
-          try {
-            function sendLink() {
-              Kakao.Link.sendDefault({
-                objectType: 'feed',
-                content: {
-                  title: '{{ page.title }}',
-                  description: '김소해의 포트폴리오를 공유합니다!',
-                  imageUrl:
-                    'http://localhost:4000/assets/img/projects/proj-3/thumbnail.jpg',
-                  link: {
-                    mobileWebUrl: document.location.href,
-                    webUrl: document.location.href,
-                  },
-                },
-                buttons: [
-                  {
-                    title: '웹으로 보기',
-                    link: {
-                      mobileWebUrl: document.location.href,
-                      webUrl: document.location.href,
-                    },
-                  },
-                  {
-                    title: '앱으로 보기',
-                    link: {
-                      mobileWebUrl: document.location.href,
-                      webUrl: document.location.href,
-                    },
-                  },
-                ],
-              })
+    try {
+      function sendLink() {
+        Kakao.Link.sendDefault({
+          objectType: 'feed',
+          content: {
+            title: '{{ page.title }}',
+            description: '김소해의 포트폴리오를 공유합니다!',
+            imageUrl:
+              'http://localhost:4000/assets/img/projects/proj-3/thumbnail.jpg',
+            link: {
+              mobileWebUrl: document.location.href,
+              webUrl: document.location.href,
+            },
+          },
+          buttons: [
+            {
+              title: '웹으로 보기',
+              link: {
+                mobileWebUrl: document.location.href,
+                webUrl: document.location.href,
+              },
             }
-            ; window.kakaoDemoCallback && window.kakaoDemoCallback()
-          }
-          catch (e) { window.kakaoDemoException && window.kakaoDemoException(e) }
+          ],
+        })
+      }
+      ; window.kakaoDemoCallback && window.kakaoDemoCallback()
+    }
+    catch (e) { window.kakaoDemoException && window.kakaoDemoException(e) }
   </script>
 </head>
+
 <body>
-<div id="container">
-<div id="hero"
-class="d-flex justify-content-center align-items-center" style="padding:8em 0;">
-<div class="knock-container position-relative" style="color:white" >
-  <center>
-  <br>
-  <h1> Knock!綠!<br></h1><h2 style="font-weight:100">Knock Environment, Knock your life.<br>
- To make our planet greener.</h2>
-  <a href=#campaign class="btn-get-started">
-    상세보기</a><br><a href=#yup class="btn-get-started">개발과정</a></center>
-</div>
-</div>
-
-<div class="knock-introduce">
-
-<br>
-
-<div class="knock environment">
-  <center><h1 class="light">개발환경</h1><br>
-<div id='logos' style='line-height:5em; margin-top:4.5em'>
-  <img src="https://cdn.svgporn.com/logos/eclipse.svg" alt="eclipse" height=40; >
-  <img src="https://cdn.svgporn.com/logos/java.svg" alt="java" height=70;>
-  <img src="https://cdn.worldvectorlogo.com/logos/datagrip-icon.svg" alt="datagrip" height=60;  ;>
-  <img src="https://cdn.svgporn.com/logos/oracle.svg" alt="oracle" height=25; ><br>
-  <img src="https://cdn.svgporn.com/logos/html-5.svg" alt="html" height=60; >
-  <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="css" height=60; >
-  <img src="https://cdn.worldvectorlogo.com/logos/jquery-1.svg" alt="jQuery" height=40; >
-  <img src="https://cdn.svgporn.com/logos/bootstrap.svg" alt="bootstrap" height=50; ><br>
-  <img src="https://cdn.svgporn.com/logos/spring.svg" alt="spring" height=40; >
-  <img src="https://cdn.svgporn.com/logos/visual-studio-code.svg" alt="visual-studio-code" height=50; >
-  <img src="https://cdn.svgporn.com/logos/tomcat.svg" alt="tomcat" height=50; >
-  <img src="https://cdn.worldvectorlogo.com/logos/notion-logo-1.svg" alt="notion" height=50; >
-  </center></div>
-
-
-<div class="knock">
-  <center><h1 class="light">프로젝트 개요</h1></center>
-
-     <!-- ======= Counts Section ======= -->
-     <div id="counts" class="counts" style="color:white">
-      <div class="knock-container">
+  <div id="container">
+    <div id="hero" class="d-flex justify-content-center align-items-center">
+      <div class="knock-container position-relative" style="color:white">
         <center>
+          <br>
+          <h1> Knock!綠!<br></h1>
+          <h2 style="font-weight:100">Knock Environment, Knock your life.<br>
+            To make our planet greener.</h2>
+          <div class="knock-introduction">환경보호 주제의 팀 프로젝트로<br>
+            저는 <span style="font-weight:400;">캠페인 기능</span>을 담당하였습니다.<br>
+            <span style="font-weight:400 ">스프링+MyBatis+SQL developer</span>를 사용해 개발하였습니다<br>다양한 <span
+              style="font-weight:400">라이브러리와 API</span>를 공부할 수 있었습니다.<br>
+          </div><br>
+          <a href=#campaign class="btn-get-started btn-1">
+            상세보기</a><a href=#yup class="btn-get-started">PDF로 보기</a>
+        </center>
+      </div>
+    </div>
+
+    <div class="knock-introduce">
+
+      <br>
+
+      <div class="knock environment">
+        <center>
+          <h1 class="light">개발환경</h1><br>
+          <div id='logos' style='line-height:5em; '>
+            <a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true"
+              href="https://embed.stackshare.io/stacks/embed/50ca04cdb406b3f38c18618d8320b6" /></a>
+            <script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
+
+          </div>
+
+
+          <div class="knock">
+            <center>
+              <h2 class="light">프로젝트 개요</h1>
+            </center>
+
+            <!-- ======= Counts Section ======= -->
+            <div id="counts" class="counts" style="color:white">
+              <div class="knock-container">
+                <center>
+
+                  <div style="font-weight:100; font-size: x-large;line-height: 1.4em;">
+                    <span style='color:#fff089; font-weight:400'><b><i>01</i></b></span>
+                    환경문제 인식 개선을 위한<br><span style="font-weight:400">캠페인 제안</span><br><br>
+                    <span style='color:#fff089; font-weight:400'><b><i>02 </i></b></span>
+                    지속가능한 소비를 위한<br><span style="font-weight:400">쇼핑몰 운영</span></h3>
+                  </div>
+                </center>
+              </div>
+            </div>
+            <center>
+              <h2 class="light">주요 기능</h1>
+            </center>
+          </div>
+          <!-- End Counts Section -->
+          <div id="why-us" class="why-us">
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon-boxes d-flex flex-column justify-content-center">
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-6 d-flex align-items-stretch function-box">
+                      <div class="icon-box mt-4 mt-xl-0" style="padding-bottom:33px;">
+                        <i class="glyphicon glyphicon-user"></i>
+                        <h4>회원가입<br>로그인</h4>
+                        <p>회원가입/로그인<br>
+                          마이페이지<br>
+                          문의하기
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 d-flex align-items-stretch function-box">
+                      <div class="icon-box mt-4 mt-xl-0">
+                        <i class="glyphicon glyphicon-grain"></i>
+                        <h4>캠페인</h4>
+                        <p>
+                          캠페인참여<br> 펀딩참여 <br> 캠페인제안<br>커뮤니티(게시판)</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 d-flex align-items-stretch function-box">
+                      <div class="icon-box mt-4 mt-xl-0">
+                        <i class="glyphicon glyphicon-shopping-cart"></i>
+                        <h4>쇼핑몰</h4>
+                        <p>상품관리<br>
+                          주문<br>
+                          결제<br>
+                          판매내역</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 d-flex align-items-stretch function-box">
+                      <div class="icon-box mt-4 mt-xl-0">
+                        <i class="glyphicon glyphicon-cog"></i>
+                        <h4>관리자</h4>
+                        <p>회원 관리<br>
+                          캠페인 관리<br>
+                          문의 <br> 답변
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End .content-->
+              </div>
+            </div>
+
+      </div>
+    </div>
+
+    </div>
+    <div class="knock-detail">
+      <div class="knock">
+        <center>
+          <h2 class="light">화면구현</h1>
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper" style="height:100%">
+                <!-- Slides -->
+                <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen1.png" target="_blank"><img
+                      src="/assets/img/projects/proj-3/screen1.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen2.png" target="_blank"><img
+                      src="/assets/img/projects/proj-3/screen2.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen4.png" target="_blank"><img
+                      src="/assets/img/projects/proj-3/screen4.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen5.png" target="_blank"><img
+                      src="/assets/img/projects/proj-3/screen5.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen6.png" target="_blank"><img
+                      src="/assets/img/projects/proj-3/screen6.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen7.png" target="_blank"><img
+                      src="/assets/img/projects/proj-3/screen7.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen8.png" target="_blank"><img
+                      src="/assets/img/projects/proj-3/screen8.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen9.png" target="_blank"><img
+                      src="/assets/img/projects/proj-3/screen9.png"></a></div>
+                
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- pips will go here -->
+
+            </div>
+
+
+            <div class="knock" id="campaign">
+
+              <h2 class="light">캠페인 상세보기</h1>
+              
+                  
+                  
+
+                    <div class="swiper-container">
+                      <!-- Additional required wrapper -->
+                      <div class="swiper-wrapper" style="height:100%">
+                        <!-- Slides -->
+                        <div class="swiper-slide function" ><a href="/assets/img/projects/proj-3/knock1.png" target="_blank"><img
+                              src="/assets/img/projects/proj-3/knock1.png" ></a>
+                            <h1 style="font-weight:500">#1 캠페인 제안</h1><br>
+                            
+                            <div class="function-desc">녹녹의 캠페인은 <br>사용자의 제안으로부터 시작됩니다.<br><br><br>
+                              
+                              1. input form을 통해 캠페인 제안에 필요한 정보들(캠페인 제목, 실천법, 목표 포인트)을 사용자가 직접 입력할 수 있습니다.
+                              <br><br>2. Summernote 에디터 활용 - 텍스트와 이미지를 자유롭게 편집할 수 있도록 하였습니다.
+                              <br><br>3. 에디터로 쓰여지는 내용과 별개로, 대표 이미지는 스프링에서 제공하는 파일 업로드 라이브러리를 사용하였습니다.
+                            </div>
+                            </div>
+                        <div class="swiper-slide function"><a href="/assets/img/projects/proj-3/knock3.png" target="_blank"><img
+                              src="/assets/img/projects/proj-3/knock3.png"></a>
+                              <h1 style="font-weight:500">#2 캠페인 펀딩</h1><br>
+                              <div class="function-desc">승인된 캠페인은<br>펀딩 페이지에 등록됩니다.<br><br><br>
+                                1. 펀딩하기 버튼을 누르면 modal창을 통해 펀딩진행 여부를 묻습니다.<br><br>
+                                2. 펀딩할 시, ajax를 통해 사용자의 펀딩참여를 전송하고, 업데이트된 펀딩 데이터를 전달받아 화면에 보여줍니다.<br><br>
+                                3. 사용자의 펀딩참여 여부를 함께 불러와 같은 화면에서 바로 취소처리를 할 수 있습니다.
+                               
+                              </div>
+                            </div>
+                        <div class="swiper-slide function"><a href="/assets/img/projects/proj-3/knock4.png" target="_blank"><img
+                              src="/assets/img/projects/proj-3/knock4.png" ></a>
+                              <h1 style="font-weight:500">#3 캠페인 리스트</h1><br>
+                              <div class="function-desc">펀딩에 성공하면<br>캠페인 페이지에 등록됩니다.<br><br><br>
+
+                                1. carousel 배너를 통해 홈페이지 사용법을 알리고 참여를 유도합니다.
+                                <br><br>2. 진행중인 캠페인의 제목을 검색할 수 있으며 조회기준을 설정하여 사용자가 쉽게 접근할 수 있도록 하였습니다.
+                                <br><br>3. 캠페인 관련 정보와 함께, select문을 통해 사용자 정보와 참가자 수를 함께 조회합니다.
+                              </div>
+                            </div>
+                        <div class="swiper-slide function"><a href="/assets/img/projects/proj-3/knock5.png" target="_blank"><img
+                              src="/assets/img/projects/proj-3/knock5.png" ></a>
+                              <h1 style="font-weight:500">#4 캠페인 상세보기</h1><br>
+                              <div class="function-desc">펀딩에 성공하면<br>캠페인 페이지에 등록됩니다.<br><br><br>
+
+                                1. carousel 배너를 통해 홈페이지 사용법을 알리고 참여를 유도합니다.
+                                <br><br>2. 진행중인 캠페인의 제목을 검색할 수 있으며 조회기준을 설정하여 사용자가 쉽게 접근할 수 있도록 하였습니다.
+                                <br><br>3. 캠페인 관련 정보와 함께, select문을 통해 사용자 정보와 참가자 수를 함께 조회합니다.
+                              </div>
+                            </div>
+                              <button onclick="sendLink();" id="share" class="btn-funding"><i
+                                class="glyphicon glyphicon-share-alt"></i> </button>
+                            </div>
+                        <div class="swiper-slide function"><a href="/assets/img/projects/proj-3/screen6.png" target="_blank"><img
+                              src="/assets/img/projects/proj-3/screen6.png"></a>
+                            
+                            
+                            
+                            </div>
+                        <div class="swiper-slide function"><a href="/assets/img/projects/proj-3/screen7.png" target="_blank"><img
+                              src="/assets/img/projects/proj-3/screen7.png"></a></div>
+                        <div class="swiper-slide function"><a href="/assets/img/projects/proj-3/screen8.png" target="_blank"><img
+                              src="/assets/img/projects/proj-3/screen8.png"></a></div>
+                        <div class="swiper-slide function"><a href="/assets/img/projects/proj-3/screen9.png" target="_blank"><img
+                              src="/assets/img/projects/proj-3/screen9.png"></a></div>
+                        
+                      </div>
+                      <!-- If we need pagination -->
+                      <div class="swiper-pagination"></div>
+                      <!-- pips will go here -->
         
-<div style="font-weight:100; font-size: x-large;line-height: 1.4em;">
-  <font color=#fff089><h1><b><i>01</i></b></h1></font>
-      환경문제 인식 개선을 위한<br><span style="font-weight:400">캠페인 제안</span><br><br>
-      <font color=#fff089><h1><b><i>02</i></b></h1></font>
-지속가능한 소비를 위한<br><span style="font-weight:400">쇼핑몰 운영</span></h3></div>
-</center> </div></div>
-<center><h1 class="light">주요 기능</h1></center>
-<!-- End Counts Section --><section id="why-us" class="why-us">
-				<div class="row">
-					<div class="col-lg-12 d-flex align-items-stretch" data-aos="zoom-in"
-						data-aos-delay="100">
-						<div class="icon-boxes d-flex flex-column justify-content-center" >
-							<div class="row">
-                <div class="col-lg-3 col-sm-6 d-flex align-items-stretch function-box" >
-									<div class="icon-box mt-4 mt-xl-0" style="padding-bottom:33px;">
-										<i class="glyphicon glyphicon-user"></i>
-										<h4>회원가입<br>로그인</h4>
-										<p>회원가입/로그인<br> 
-                      마이페이지<br> 
-                      문의하기
-                      </p>
-									</div>
-								</div>
-								<div class="col-lg-3 col-sm-6 d-flex align-items-stretch function-box">
-									<div class="icon-box mt-4 mt-xl-0">
-										<i class="glyphicon glyphicon-grain"></i>
-										<h4>캠페인</h4>
-                    <p>
-                     캠페인참여<br> 펀딩참여 <br> 캠페인제안<br>커뮤니티(게시판)</p>
-									</div>
-								</div>
-								<div class="col-lg-3 col-sm-6 d-flex align-items-stretch function-box">
-									<div class="icon-box mt-4 mt-xl-0">
-										<i class="glyphicon glyphicon-shopping-cart"></i>
-										<h4>쇼핑몰</h4>
-                      <p>상품관리<br>
-                        주문<br>
-                        결제<br>
-                        판매내역</p>
-									</div>
-								</div>
-								<div class="col-lg-3 col-sm-6 d-flex align-items-stretch function-box">
-									<div class="icon-box mt-4 mt-xl-0">
-										<i class="glyphicon glyphicon-cog"></i>
-										<h4>관리자</h4>
-										<p>회원 관리<br> 
-                      캠페인 관리<br> 
-                      문의 <br> 답변
-                      </p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End .content-->
-					</div>
-				</div>
+                    </div>
+        
 
-			</div>
-		</section>
-   
-</div>
-<div class="knock-detail">
-<div class="knock">
-  <center>
-  <h1 class="light">화면구현</h1>
-  <div class="swiper-container" >
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper" style="height:100%">
-      <!-- Slides -->
-      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen1.png" target="_blank"><img src="/assets/img/projects/proj-3/screen1.png"></a></div>
-      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen2.png" target="_blank"><img src="/assets/img/projects/proj-3/screen2.png"></a></div>
-      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen4.png" target="_blank"><img src="/assets/img/projects/proj-3/screen4.png"></a></div>
-      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen5.png" target="_blank"><img src="/assets/img/projects/proj-3/screen5.png"></a></div>
-      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen6.png" target="_blank"><img src="/assets/img/projects/proj-3/screen6.png"></a></div>
-      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen7.png" target="_blank"><img src="/assets/img/projects/proj-3/screen7.png"></a></div>
-      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen8.png" target="_blank"><img src="/assets/img/projects/proj-3/screen8.png"></a></div>
-      <div class="swiper-slide"><a href="/assets/img/projects/proj-3/screen9.png" target="_blank"><img src="/assets/img/projects/proj-3/screen9.png"></a></div>
-      ...
+
+                    <!--end campaign-->
+            </div>
+        </center>
+
+
+
+      </div>
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- pips will go here -->
 
-    </div>
-    
-
-    <div class="knock" id="campaign">
-
-      <h1 class="light" >상세보기 <br>- CAMPAIGN</h1>
-      <h2>(제가 맡은 기능)</h2>
-      <button onclick="sendLink();" id="share" class="btn-funding"><i class="glyphicon glyphicon-share-alt"></i> </button>
-
-    </div>
-  </center>
-
-
-
-</div>
-</div>
-
-</div>
+  </div>
 
 
 
   <!-- If we need navigation buttons -->
 
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><
-</div></div><i class="bi bi-cart"></i>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  < </div>
+    </div><i class="bi bi-cart"></i>
 </body>
 <!-- <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
 <script src="/assets/js/scroll.js"></script> -->
@@ -211,24 +295,24 @@ class="d-flex justify-content-center align-items-center" style="padding:8em 0;">
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
   const swiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  slidesPerView: "auto",
-  spaceBetween:30,
-  direction: 'horizontal',
-  loop: true,
+    // Optional parameters
+    spaceBetween: 30,
+    direction: 'horizontal',
+    loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  mousewheel: {
-    invert: false,
-  },
-});
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    mousewheel: {
+      invert: false,
+    },
+  });
+
 </script>
