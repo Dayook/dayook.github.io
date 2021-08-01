@@ -221,6 +221,7 @@ h6 {
   object-fit: cover;
   border: 1px solid #d2d2d2;
   border-radius: 10px;
+  margin-right: 10px;
 }
 
 :root {
@@ -240,7 +241,7 @@ h6 {
   padding: 10px;
   font-size: medium;
   line-height: 1.5em;
-  display: flex;
+  display: inherit;
   margin-top: 1.5em;
 }
 
