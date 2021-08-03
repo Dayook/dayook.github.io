@@ -1052,4 +1052,8 @@ section {
   .function img {
     width: 100%;
   }
+
+  .last {
+    padding: 2em;
+  }
 }
