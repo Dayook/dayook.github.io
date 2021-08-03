@@ -3,19 +3,20 @@
 # General Site Settings
 
 menu:
+  - { name: "About", url: "about" }
+  - { name: "Stack", url: "stack" }
   - { name: "Projects", url: "" }
   - { name: "Blog", url: "blog" }
-  - { name: "About", url: "about" }
 
 #-------------------------------
 # Projects Section
 
 projects:
   - { name: "knock!綠!", url: "knock" }
-  - { name: "To-do List", url: "proj-2" }
   - { name: "Bit library", url: "proj-1" }
-  - { name: "knock!knock!", url: "proj-3" }
-  - { name: "Project Five", url: "proj-5" }
+  - { name: "To-do List", url: "proj-2" }
+  - { name: "coming soon", url: "proj-3" }
+  - { name: "coming soon", url: "proj-5" }
 
 #-------------------------------
 # Contact Section

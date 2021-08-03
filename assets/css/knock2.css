@@ -19,11 +19,13 @@ a {
   text-decoration: none;
 }
 
+.last a {
+  color: #bce5c8;
+}
 p {
   line-height: 1.5em;
 }
 a:hover {
-  color: #86db9f;
   text-decoration: none;
 }
 
@@ -249,11 +251,17 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("/assets/img/projects/proj-3/knock.jpeg") top center;
+  background: url("/assets/img/projects/knock/knock.jpeg") top center;
   background-size: cover;
   position: relative;
   z-index: 0;
   height: 47em;
+}
+
+.last {
+  background-color: rgb(10, 61, 14);
+  color: white;
+  padding: 8em;
 }
 
 .section-title h2 {
@@ -986,8 +994,32 @@ section {
   float: left;
 }
 
+#campaign {
+  margin-bottom: 8em;
+}
+
 #logos {
   margin: 4.5em 8em;
+}
+
+.btn-return {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.5s;
+  border: 2px solid #dbffe5;
+  background: black;
+  color: white;
+  width: 145px;
+  margin-top: 4em;
+}
+
+.btn-return:hover {
+  background: rgb(0, 31, 3);
+  border: 2px solid #fff;
 }
 
 @media (max-width: 768px) {
