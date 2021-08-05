@@ -1,3 +1,2 @@
-# Sohae Kim's Portfolio Site
-
+# Sohae Kim's Portfolio
 
