@@ -26,3 +26,7 @@ permalink: /stack
 #### Github
 
 - Git Bash와 Github를 사용해 다른 개발자들과 협업해본 경험이 있습니다.
+
+---
+
+<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/32280aada4a554a1c2d0c6f5f9c102"/><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
