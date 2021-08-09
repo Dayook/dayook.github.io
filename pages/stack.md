@@ -9,10 +9,9 @@ permalink: /stack
 - MVC 패턴을 이해하고 페이징 처리된 게시판을 작성할 수 있습니다.
 - Mybatis를 적용한 Spring 프레임워크 프로젝트 개발 경험이 있습니다.
 
-#### Javascript(ES6), React.js
+#### Javascript(ES6)
 
-- 자바스크립트의 기본 문법을 익혔으며
-- React.js와 Node.js를 이용한 미니 프로젝트 개발 경험이 있습니다.
+- 자바스크립트의 기본 문법을 익혔습니다.
 
 #### HTML5,CSS3,JQuery
 
