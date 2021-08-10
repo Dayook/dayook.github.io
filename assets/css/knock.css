@@ -244,6 +244,9 @@ h6 {
   display: inherit;
   margin-top: 1.5em;
 }
+.swiper-container h2 {
+  margin-top: 1em;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
