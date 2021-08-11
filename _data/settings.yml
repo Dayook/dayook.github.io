@@ -22,7 +22,6 @@ projects:
 # Contact Section
 
 social:
-  - { icon: "instagram", link: "https://instagram.com/dayookk" }
   - { icon: "github", link: "https://github.com/dayook" }
   # - { icon: "linkedin", link: "https://linkedin.com/in/lenpaul" }
 
