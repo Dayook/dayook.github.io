@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -1056,4 +1057,39 @@ section {
   .last {
     padding: 2em;
   }
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 40px 25px;
+  background: #fff;
+  max-width: 400px;
+  position: relative;
+  border-radius: 3px;
+}
+.box.ofh {
+  overflow: hidden;
+}
+
+.cross-shadow-ribbon {
+  background: #fff089;
+  top: -15px;
+  padding: 10px;
+  margin-left: 15px;
+  color: rgb(10, 61, 14);
+  border-radius: 0 0 2px 2px;
+  position: absolute;
+  left: 25%;
+}
+.cross-shadow-ribbon:before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 15px solid #f1cd56;
+  border-left: 15px solid transparent;
 }
