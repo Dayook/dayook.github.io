@@ -15,6 +15,7 @@ git status # git이 현재 인식하고 있는 프로젝트 관련 내용들 출
 git push -u origin master # 로컬 레포지토리의 내용을 처음으로 리모트 레포지토리로 올릴 때
 git push
 git pull # 리모트 레포지토리의 내용을 로컬 레포지토리로 옮길 때
+git fetch # merge하지 않고 pull만 해옴 - 리모트 레포지토리의 내용을 확인한 뒤 로컬 레포지토리로 옮기고 싶을 때.
 git clone [프로젝트의 github주소] # github에 올라가있는 오픈 소스 프로젝트를 내 컴퓨터로 가져오기
 ```
 
