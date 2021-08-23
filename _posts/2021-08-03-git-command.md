@@ -5,7 +5,7 @@ title: "[git] 자주 사용하는 git command 정리"
 
 ```bash
 git init # 현재 디렉토리를 git이 관리하는 프로젝트 디렉토리로 설정하고 그 안에 레포지토리(.git 디렉토리) 생성
-git config user.name 'username' # 현재 사용자의 아이디를 'username'으로 설정 - 커밋 ㅅ ㅣ필요
+git config user.name 'username' # 현재 사용자의 아이디를 'username'으로 설정 - 커밋 시 필요
 git config user.email 'teacher@gmail.com' # 사용자의 이메일 주소 설정 - 커밋 시 필요
 git add [파일이름] # 수정사항이 있는 파일을 staging area에 올리기
 git add [디렉토리명] # directory 내 수정사항이 있는 모든 파일들을 staging area에 올림
