@@ -48,6 +48,10 @@ git checkout -b [새 브랜치 이름] # 브랜치 생성하면서 이동
 git checkout [브랜치 이름] # 그 브랜치로 이동
 git branch -d [브랜치 이름] # 브랜치 삭제
 git merge --abort # 머지 시도 이전의 상태로 돌아가기
+
+git fetch # 가져오기만 하고, merge는 하지 않음
+# remote repository 내용을 확인한 후 pull 하고 싶을 때 사용
+# git diff [remote name] [local name]으로 브랜치간 비교
 ```
 
 #### git reset과 git checkout
