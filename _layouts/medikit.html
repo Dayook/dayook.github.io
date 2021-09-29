@@ -13,39 +13,7 @@ layout: default
 
   
   <script type="text/JavaScript" src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
-  <link href="/assets/css/knock2.css" rel="stylesheet">
-  <script>
-
-    Kakao.init('bcc078e14b45da8aab1c2afda496dea9');
-    try {
-      function sendLink() {
-        Kakao.Link.sendDefault({
-          objectType: 'feed',
-          content: {
-            title: '{{ page.title }}',
-            description: '김소해의 포트폴리오를 공유합니다!',
-            imageUrl:
-              'http://localhost:4000/assets/img/projects/knock/thumbnail.jpg',
-            link: {
-              mobileWebUrl: document.location.href,
-              webUrl: document.location.href,
-            },
-          },
-          buttons: [
-            {
-              title: '웹으로 보기',
-              link: {
-                mobileWebUrl: document.location.href,
-                webUrl: document.location.href,
-              },
-            }
-          ],
-        })
-      }
-      ; window.kakaoDemoCallback && window.kakaoDemoCallback()
-    }
-    catch (e) { window.kakaoDemoException && window.kakaoDemoException(e) }
-  </script>
+  <link href="/assets/css/medikit.css" rel="stylesheet">
 </head>
 
 <body>
@@ -54,16 +22,16 @@ layout: default
       <div class="knock-container position-relative" style="color:white">
         <center>
           <br>
-          <h1> Knock!綠!<br></h1>
-          <h2 style="font-weight:100">Knock Environment, Knock your life.<br>
-            To make our planet greener.</h2>
-          <div class="knock-introduction">환경보호 주제의 펀딩 사이트로,<br>
-            <span style="color:#fff089">저는 <span style="font-weight:400;">캠페인 기능</span>을 담당했습니다.</span><br>
-            <span style="font-weight:400 ">Spring+MyBatis+SQL developer</span>를 사용해 개발하였고<br>다양한 <span
-              style="font-weight:400">라이브러리와 API</span>를 공부하며 진행했습니다.<br>
+          <h1> MEDIKIT<br></h1>
+          <h2 style="font-weight:100">Manage Medical Information<br>
+            More easily and Precisely</h2>
+          <div class="knock-introduction">주도적으로 자신의 복약 상황을 기록하고<br>
+            </span>관리할 수 있는, 의료 데이터 기반 서비스를 기획/개발하였습니다.<br>
+            <span style="font-weight:40; color:#40a9ff ">React.js, Node.js, Mongodb</span>를 사용해 개발하였고<br><span
+              style="font-weight:400">webRTC를 이용한 채팅서비스 구현</span>이 예정돼있습니다.<br>
           </div><br>
           <a href=#knock-introduce class="btn-get-started btn-1">
-            상세보기</a><a href="https://github.com/Knock-bit/KnockKnock" target="_blank" class="btn-get-started"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;github</a>
+            상세보기</a><a href="https://github.com/Dayook/medibox" target="_blank" class="btn-get-started"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;github</a>
         </center>
       </div>
     </div>
@@ -76,10 +44,8 @@ layout: default
         <center>
           <h2 class="light">개발환경</h2><br>
           <div id='logos' style='line-height:5em; '>
-            <a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true"
-              href="https://embed.stackshare.io/stacks/embed/50ca04cdb406b3f38c18618d8320b6" /></a>
-            <script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
 
+            <a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/eaa14255b8eb876c304809fd213325"/></a><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
           </div>
 
 
@@ -89,15 +55,15 @@ layout: default
             </center>
 
             <!-- ======= Counts Section ======= -->
-            <div id="counts" class="counts" style="color:white">
+            <div id="counts" class="counts" style="color:#2b2b2b">
               <div class="knock-container">
                 <center>
 
                   <div style="font-weight:100; font-size: x-large;line-height: 1.4em;">
-                    <span style='color:#fff089; font-weight:400'><b><i>01</i></b></span>
-                    환경문제 인식 개선을 위한<br><span style="font-weight:400">캠페인 제안</span><br><br>
-                    <span style='color:#fff089; font-weight:400'><b><i>02 </i></b></span>
-                    지속가능한 소비를 위한<br><span style="font-weight:400">쇼핑몰 운영</span></h3>
+                    <span style='color:#40a9ff; font-weight:400'><b><i>01</i></b></span>
+                    의약품 부작용을 방지하기 위한<br><span style="font-weight:400">의약품 다이어리</span><br><br>
+                    <span style='color:#40a9ff; font-weight:400'><b><i>02 </i></b></span>
+                    언제 어디서든 전문가와 상담 가능한<br><span style="font-weight:400">실시간 채팅</span></h3>
                   </div>
                 </center>
               </div>
@@ -112,45 +78,27 @@ layout: default
               <div class="col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-boxes d-flex flex-column justify-content-center">
                   <div class="row">
-                    <div class="col-lg-6 col-sm-6 d-flex align-items-stretch function-box">
-                      <div class="icon-box" style="padding-bottom:33px;">
-                        <i class="glyphicon glyphicon-user"></i>
-                        <h4>회원가입<br>로그인</h4>
-                        <p>회원가입/로그인<br>
-                          마이페이지<br>
-                          문의하기
-                        </p>
-                      </div>
-                    </div>
+                 
                     <div class="col-lg-6 col-sm-6 d-flex align-items-stretch function-box">
                       <div class="icon-box box">
                           <div class="cross-shadow-ribbon">What I've done!</div>
-                        <i class="glyphicon glyphicon-grain"></i>
-                        <h4>캠페인</h4>
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        <h4>의약품 기록</h4>
                         <p>
-                          캠페인참여<br> 펀딩참여 <br> 캠페인제안<br>커뮤니티(게시판)</p>
+                          기록<br> 주의사항 <br> 의약품 달력</p>
                       </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 d-flex align-items-stretch function-box">
                       <div class="icon-box ">
-                        <i class="glyphicon glyphicon-shopping-cart"></i>
-                        <h4>쇼핑몰</h4>
-                        <p>상품관리<br>
-                          주문<br>
-                          결제<br>
-                          판매내역</p>
+                        <div class="cross-shadow-ribbon">Developing now...</div>
+                        <i class="glyphicon glyphicon-user"></i>
+                        <h4>상담</h4>
+                        <p>1:1 상담<br>
+                          -메세지<br>
+                          -영상
                       </div>
                     </div>
-                    <div class="col-lg-6 col-sm-6 d-flex align-items-stretch function-box">
-                      <div class="icon-box ">
-                        <i class="glyphicon glyphicon-cog"></i>
-                        <h4>관리자</h4>
-                        <p>회원 관리<br>
-                          캠페인 관리<br>
-                          문의 <br> 답변
-                        </p>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
                 <!-- End .content-->
@@ -171,26 +119,24 @@ layout: default
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper" style="height:100%">
                 <!-- Slides -->
-                <div class="swiper-slide"><a href="/assets/img/projects/knock/screen1.png" target="_blank"><img
-                      src="/assets/img/projects/knock/screen1.png"></a></div>
-                <div class="swiper-slide"><a href="/assets/img/projects/knock/screen2.png" target="_blank"><img
-                      src="/assets/img/projects/knock/screen2.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/medikit/medi0.jpg" target="_blank"><img
+                      src="/assets/img/projects/medikit/medi0.jpg"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/medikit/medi1.jpg" target="_blank"><img
+                      src="/assets/img/projects/medikit/medi1.jpg"></a></div>
                 <!-- <div class="swiper-slide"><a href="/assets/img/projects/knock/screen4.png" target="_blank"><img
                       src="/assets/img/projects/knock/screen4.png"></a></div> -->
-                <div class="swiper-slide"><a href="/assets/img/projects/knock/screen5.png" target="_blank"><img
-                      src="/assets/img/projects/knock/screen5.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/medikit/medi2.jpg" target="_blank"><img
+                      src="/assets/img/projects/medikit/medi2.jpg"></a></div>
                 <!-- <div class="swiper-slide"><a href="/assets/img/projects/knock/screen6.png" target="_blank"><img
                       src="/assets/img/projects/knock/screen6.png"></a></div> -->
-                <div class="swiper-slide"><a href="/assets/img/projects/knock/screen7.png" target="_blank"><img
-                      src="/assets/img/projects/knock/screen7.png"></a></div>
-                <div class="swiper-slide"><a href="/assets/img/projects/knock/screen8.png" target="_blank"><img
-                      src="/assets/img/projects/knock/screen8.png"></a></div>
-                <div class="swiper-slide"><a href="/assets/img/projects/knock/screen9.png" target="_blank"><img
-                      src="/assets/img/projects/knock/screen9.png"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/medikit/medi3.jpg" target="_blank"><img
+                      src="/assets/img/projects/medikit/medi3.jpg"></a></div>
+                <div class="swiper-slide"><a href="/assets/img/projects/medikit/medi4.jpg" target="_blank"><img
+                      src="/assets/img/projects/medikit/medi4.jpg"></a></div>
 
               </div>
               <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
+              <!-- <div class="swiper-pagination"></div> -->
               <!-- pips will go here -->
 
             </div>
@@ -200,15 +146,12 @@ layout: default
             
             <div class="knock" id="campaign">
 
-              <h2 class="light">캠페인기능 상세보기</h1>
 
 
-
-
-                <div class="swiper-container" style="overflow: hidden;">
-                  <!-- Additional required wrapper -->
+                <!-- <div class="swiper-container" style="overflow: hidden;">
+                 
                   <div class="swiper-wrapper" style="height:100%">
-                    <!-- Slides -->
+                    
                     <div class="swiper-slide function"><a href="/assets/img/projects/knock/knock1.png"
                         target="_blank"><img src="/assets/img/projects/knock/knock1.png"></a>
                       <h2 style="font-weight:500">#1 캠페인 제안</h1><br>
@@ -272,9 +215,9 @@ layout: default
                     </div>
                  
 
-                </div>
+                </div> -->
                 <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-pagination"></div> -->
                 <!-- pips will go here -->
 
             </div>
@@ -284,9 +227,16 @@ layout: default
             <!--end campaign-->
       </div>
       <div class="last light" style="font-size: medium;">
-      <div>
-        <h1> <i class="glyphicon glyphicon-grain"></i></h1>
-        <h2>개발일지</h2><br>
+      <div><center>
+        <h1> <i class="glyphicon glyphicon-grain"></i></h1><br>
+        2020년 공공데이터 해커톤 기획부문 수상을 계기로<br>
+        웹개발을 학습하게 되었으며 react를 익혀 현재 1인 개발을 진행중입니다<br>
+        실시간 메세지/영상 채팅 기능과 <br>
+        가족별 의약품 복용 현황 관리 기능을 추가할 계획입니다.<br>
+        <br>
+        <a href="https://www.notion.so/f363add280984e1abd81bfb8de2a4d04"><img src="/assets/img/projects/knock/notion-logo-1.png" width="20"></a>
+        <a class="blue" href="https://www.notion.so/f363add280984e1abd81bfb8de2a4d04">기획안 PPT 확인하기</a> <br><br>
+        <!-- <h2>개발일지</h2><br>
         <span style="font-weight:400">매뉴얼/이름규칙/논의사항/DB설계<br>개인 진행상황/회의록</span>을<br>
         노션을 통해 기록하고 공유하며 개발을 진행하였습니다.<br><br>
         <a href="https://www.notion.so/Knock-Final-Project-40fcaf1c922542128cb61b24fe1637a0"><img src="/assets/img/projects/knock/notion-logo-1.png" width="20"></a>
@@ -304,11 +254,11 @@ layout: default
         <a class="yellow" href="/sending-mail-by-java.html" target="_blank">[blog] 자바로 이메일 보내기</a><br>
         <a class="yellow" href="/java-scheduling.html">[blog] 자바 스케쥴러</a><br>
         <a class="yellow" href="/payment-API.html">[blog] 결제 API 사용하기</a><br>
-
+ -->
 
         <a href=# class="btn-return" style="color:white">
           상단으로</a>
-
+        </center>
       </div></div>
       </center>
     </div>

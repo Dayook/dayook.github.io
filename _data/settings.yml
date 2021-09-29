@@ -12,6 +12,7 @@ menu:
 # Projects Section
 
 projects:
+  - { name: "MEDIKIT", url: "medikit" }
   - { name: "knock!綠!", url: "knock" }
   - { name: "Bit library", url: "proj-1" }
   # - { name: "To-do List", url: "proj-2" }
