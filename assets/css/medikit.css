@@ -280,6 +280,7 @@ h6 {
 
 .project-explain {
   display: inline;
+  line-height: 3em;
   background: white;
   border-radius: 30px;
   padding: 2px 10px;
@@ -527,9 +528,9 @@ section {
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: rgb(10, 61, 14);
+  color: rgb(64 169 255);
   margin-bottom: 20px;
-  background: #ecf9f0;
+  /* background: #ecf9f0; */
   border-radius: 50px;
 }
 
@@ -790,11 +791,17 @@ section {
   background: #40a9ff;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets {
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
   bottom: unset;
 }
+/* .swiper-horizontal > .swiper-pagination-bullets {
+} */
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  bottom: unset;
 }
 
 @media (max-width: 767px) {
@@ -1185,6 +1192,7 @@ section {
 }
 
 #third_2 {
+  /* display: none; */
   width: 40%;
 }
 
@@ -1193,6 +1201,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  #counts {
+    width: 90vw;
+  }
   #first_mobile,
   #third_mobile,
   #second_1 {
@@ -1200,12 +1211,12 @@ section {
   }
 
   .second-div {
+    width: 80vw;
     margin: 0;
-    padding: 20px;
+    padding: 20px 10px;
   }
 
-  .first-div,
-  .second-div {
+  .first-div {
     width: 90vw;
   }
 
@@ -1233,8 +1244,6 @@ section {
   }
 
   #thirdDesc {
-    display: inline-flex;
-    flex-direction: column-reverse;
   }
 
   .thirdContainer {

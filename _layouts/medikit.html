@@ -45,7 +45,7 @@ layout: default
 
       <div class="knock environment">
         <center>
-          <h2 class="light">개발환경</h2><br>
+          <span class="main-title">개발환경</span>
           <div id='logos' style='line-height:5em; '>
 
             <a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/eaa14255b8eb876c304809fd213325"/></a><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
@@ -69,18 +69,18 @@ layout: default
                     </div>    
                     <div class="project-explain">복용 중인 약을 스스로 기록·관리 </div><br/>
                     <div class="project-explain">개인 차원의 의료 안전망 강화</div><br/>
-                    <div class="project-explain">의약품 오남용 문제 해결 도움</div>
+                    <div class="project-explain">의약품 오남용 문제 해결 도움</div><br/>
 
-                    <span style='color:#40a9ff; font-weight:400'><b><i>01</i></b></span>
+                    <!-- <span style='color:#40a9ff; font-weight:400'><b><i>01</i></b></span>
                     의약품 부작용을 방지하기 위한<br><span style="font-weight:400">의약품 다이어리</span><br><br>
                     <span style='color:#40a9ff; font-weight:400'><b><i>02 </i></b></span>
-                    언제 어디서든 전문가와 상담 가능한<br><span style="font-weight:400">실시간 채팅</span></h3>
+                    언제 어디서든 전문가와 상담 가능한<br><span style="font-weight:400">실시간 채팅</span></h3> -->
                   </div>
                 </center>
               </div>
             </div>
             <center>
-              <h2 class="light">주요 기능</h1>
+              <span class="main-title">주요 기능</span>
             </center>
           </div>
           <!-- End Counts Section -->
@@ -125,7 +125,7 @@ layout: default
         <center>
 
 
-          <h2 class="light">화면구현</h1>
+          <span class="main-title">화면구현</span>
             <div class="screen-swiper-container" style="overflow: hidden;">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper" style="height:100%">
@@ -155,12 +155,12 @@ layout: default
             <div class="knock" id="campaign">
 
 
-              <h2 class="light">기능 상세보기</h1>
+              <span class="main-title">기능 상세보기</span>
                 <div class="swiper-container" style="overflow: hidden;">
                  
                   <div class="swiper-wrapper" style="height:90vh">
                     
-                    <div class="swiper-slide function swiper-no-swiping">
+                    <div class="swiper-slide function">
                       <div class="imgDiv">
                       <a href="/assets/img/projects/medikit/11.png"
                         target="_blank"><img id="first_1" src="/assets/img/projects/medikit/11.png"></a>
@@ -186,13 +186,13 @@ layout: default
                         </div>
                       </div>
                     </div>
-                    <div class="swiper-slide function swiper-no-swiping"><a href="/assets/img/projects/knock/knock5.png"
+                    <div class="swiper-slide function"><a href="/assets/img/projects/knock/knock5.png"
                         target="_blank"><img id="second_1" src="/assets/img/projects/medikit/2.png"></a>
                      
                       <div class="function-desc second-div">
                         <div class="important-desc">
                           <span class="desc-title">-</span><br/> 약 색상을 추출하고 <br>
-                          그날 먹을 약들을 달력에<br> 나타낼 수 있어요
+                          그날 먹을 약들을 달력에<br> 나타낼 수 있습니다.
                           <span style='color:#40a9ff'>
                        </div><br>
                        <div class="sub-desc">
@@ -200,22 +200,30 @@ layout: default
                         Python PIL 라이브러리를 통해 추출하고 <br/>
                         의약품 정보와 함께 DB에 저장하여<br/>
                         
-                        <br><br>2. 그대로 등록할 시, 기존 약과 새로 등록한 약에 경고표시가 나타납니다.
-                        <br><br>
+                        <br>2. 그대로 등록할 시, 기존 약과 새로 등록한 약에 경고표시가 나타납니다.
+                        
                         </div>
 
                       </div>
                     </div>
-                    <div class="swiper-slide function swiper-no-swiping">
+                    <div class="swiper-slide function">
                       <a href="/assets/img/projects/medikit/31.png"
                       target="_blank"><img id="third_1" src="/assets/img/projects/medikit/31.png"></a>
                       <a href="/assets/img/projects/medikit/32.png"
                       target="_blank"><img id="third_2" src="/assets/img/projects/medikit/32.png"></a>
                       <a href="/assets/img/projects/medikit/mobile3.png"
                       target="_blank"><img id="third_mobile" src="/assets/img/projects/medikit/mobile3.png"></a>
-                    <div class="function-desc" id="thirdDesc">구독
-                      <a href="/assets/img/projects/medikit/32.png"
-                      target="_blank"><img id="third_2" src="/assets/img/projects/medikit/32.png"></a>
+                    <div class="function-desc" id="thirdDesc">
+                      <span class="desc-title">-</span><br/> 멤버쉽 제도에 따라<br>
+                      결제 기능을 지원합니다.<br>
+                      <span style='color:#40a9ff'>
+                   </div><br>
+                   <div class="sub-desc">
+                    아임포트 결제 라이브러리를 통해 <br/>
+                    결제를 진행하고 결제 성공 시 멤버쉽 기능이 업데이트됩니다.
+                    
+                    <br><br>
+                    </div>
                     </div>
                   </div>
 
@@ -283,7 +291,10 @@ layout: default
 <script>
 
 var swiper = new Swiper(".swiper-container", {
-        pagination: {
+          // draggable:true,
+          // simulateTouch:true,
+          // touchRatio:1,
+          pagination: {
           el: ".swiper-pagination",
           clickable: true,
           // renderBullet: function (index, className) {
@@ -294,6 +305,7 @@ var swiper = new Swiper(".swiper-container", {
          invert: false,
         },
       });
+
 
   const screenSwiper = new Swiper('.screen-swiper-container', {
     // Optional parameters
