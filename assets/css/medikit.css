@@ -13,7 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 * {
-  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  font-family: "Spoqa Han Sans Neo", sans-serif;
 }
 a {
   color: rgb(10, 61, 14);
