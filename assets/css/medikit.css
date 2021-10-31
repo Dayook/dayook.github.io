@@ -21,7 +21,7 @@ a {
 }
 
 .last a {
-  color: #40a9ff;
+  color: #252525;
 }
 p {
   line-height: 1.5em;
@@ -278,12 +278,17 @@ h6 {
   padding: 0;
 }
 
+.emphasize {
+  font-weight: 40;
+  color: #40a9ff;
+}
+
 .project-explain {
   display: inline;
-  line-height: 3em;
+  line-height: 4em;
   background: white;
   border-radius: 30px;
-  padding: 2px 10px;
+  padding: 0.6em 1em;
   font-size: large;
   color: #40a9ff;
   font-weight: 500;
@@ -351,7 +356,7 @@ h3 {
   padding: 10px 20px;
   border-radius: 8px;
   transition: 0.5s;
-  border: 2px solid #dbffe5;
+  border: 2px solid #c1e8ff;
   background: #40a9ff;
   color: #fff;
   width: 145px;
@@ -1029,7 +1034,7 @@ section {
   padding: 10px 20px;
   border-radius: 8px;
   transition: 0.5s;
-  border: 2px solid #dbffe5;
+  border: 2px solid #c1e8ff;
   background: black;
   color: white;
   width: 145px;
@@ -1243,10 +1248,14 @@ section {
     display: block;
   }
 
-  #thirdDesc {
+  .last-div {
+    text-align: start;
   }
 
   .thirdContainer {
     display: inline-block;
+  }
+  .last-container {
+    margin: 3em 0;
   }
 }
