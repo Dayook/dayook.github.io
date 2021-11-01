@@ -284,15 +284,13 @@ h6 {
 }
 
 .project-explain {
-  display: inline;
-  line-height: 4em;
+  width: 350px;
   background: white;
   border-radius: 30px;
-  padding: 0.6em 1em;
+  padding: 0.5em 0.8em;
   font-size: large;
   color: #40a9ff;
   font-weight: 500;
-  margin-bottom: 1em;
 }
 
 .main-title {
@@ -1254,5 +1252,8 @@ section {
   }
   .last-container {
     margin: 3em 0;
+  }
+  .project-explain {
+    width: 90vw;
   }
 }
