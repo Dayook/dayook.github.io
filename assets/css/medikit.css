@@ -1209,8 +1209,8 @@ section {
   #counts {
     width: 90vw;
   }
-  #first_mobile,
-  #third_mobile,
+  #first_1,
+  #third_2,
   #second_1 {
     width: 85vw;
   }
@@ -1235,10 +1235,7 @@ section {
   }
 
   #third_1,
-  #first_1,
   #first_2,
-  #third_2,
-  #third_3,
   .sub-desc {
     display: none;
   }
