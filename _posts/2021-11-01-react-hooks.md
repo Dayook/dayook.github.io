@@ -17,7 +17,7 @@ title: "[React] React Hooks "
 
 - 마운팅될 때만 실행하고 싶을 때: 함수의 두 번째 파라미터로 비어있는 배열을 넣어줄 것
 
-```javaScript
+```javascript
 useEffect(()=>{
   console.log('execute only when mounted');
 }. []);
@@ -25,14 +25,13 @@ useEffect(()=>{
 
 - 특정 값 업데이트 시에만 실행하고 싶을 때: 배열 안에 검사하고 싶은 값을 넣어줌
 
-```javaScript
+```javascript
 useEffect(()=>{
   console.log(name);
 }. [name]);
 ```
 
 - 뒷정리. 컴포넌트가 언마운트/업데이트 되기 직전에 수행하고 싶은 작업이 있다면 뒷정리(cleanup함수) 반환해주어야.
-
 
 ```javascript
 useEffect(() => {
@@ -44,21 +43,22 @@ useEffect(() => {
   };
 });
 ```
+
 ### useReducer
+
 - 리듀서: 현재 상태, 업데이트를 위해 필요한 정보를 담은 액션 값을 전달받아, 새로운 상태를 반환하는 함수.
 - 새로운 상태를 만들 때 반드시 불변성 지켜줘야함
+
 ```javaScript
 function reducer(state, action){
   return {...};
 }
 // 액션값의 형태
-{ 
-  type: 'INCREMENT' 
+{
+  type: 'INCREMENT'
 }
 
 ```
-
-
 
 <!--
 #### 이벤트핸들링
