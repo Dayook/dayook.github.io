@@ -60,11 +60,17 @@ title: "Bit Library"
 
 이미 로그인을 한 상태라면 아이디가 필요한 영역에서 새로 아이디 입력을 요구하지 않고, myId에 저장된 값을 불러와 사용하는 식이다. 로그아웃 시, myId는 null으로 설정된다.
 
+#### 💡 DB ERD
+
+## ![Database](/assets/img/projects/proj-1/bit-db.png)
+
+---
+
 **깃헙주소 　　 ┃** [https://github.com/Dayook/bitLibrary](https://github.com/Dayook/bitLibrary){:target="\_blank"}
 
 ### EPILOGUE
 
-콘솔창 화면 구현으로 첫 프로젝트를 시작했습니다. 기능도 많지 않고 투박해보이지만 나름대로 고심하며 만들었던 기억이 납니다. 
+콘솔창 화면 구현으로 첫 프로젝트를 시작했습니다. 기능도 많지 않고 투박해보이지만 나름대로 고심하며 만들었던 기억이 납니다.
 
 이 때, 깃헙 사용법을 잘 몰라서 카톡으로 코드를 주고받기도 했는데요. 깃헙 사용법을 확실히 익혀둬야겠다고 다짐한 계기가 되어준 프로젝트였기도 합니다.
 
