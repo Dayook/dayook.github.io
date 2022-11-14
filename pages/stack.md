@@ -4,29 +4,33 @@ title: Tech Stacks
 permalink: /stack
 ---
 
-#### Javascript(ES6), React
+#### JavaScript, TypeScript, React
 
-- 자바스크립트의 기본 문법을 익혔습니다.
-- React Dom Router을 통한 페이지 전환, React Hook을 활용한 상태관리를 사용할 수 있습니다.
+- JavaScript 및 TypeScript를 익혀 실무에 적용하고 배포한 경험이 있습니다.
+    - JavaScript로 쓰인 프로젝트를 TypeScript로 전환해본 경험이 있습니다.
+- 렌더링을 고려하여 화면 개발을 할 수 있습니다.
+- React를 사용한 개인 프로젝트 개발 경험이 있습니다.
 
-#### HTML5,CSS3
+#### GraphQL
 
-- 웹표준에 대해 이해하고 있으며
-- 사용자 친화적인 화면을 구현할 수 있습니다.
+- GrapqhQL을 통해 필요한 데이터에 대한 쿼리를 클라이언트에서 작성할 수 있습니다.
+- 클라이언트에서 요청한 필드에 따라 DB에 다른 쿼리가 요청되도록 resolver를 작성할 수 있습니다.
 
-#### Java, Jsp/Servelet, Spring
+#### Redis, RabbitMQ, Node.js
 
-- MVC 패턴을 이해하고 페이징 처리된 게시판을 작성할 수 있습니다.
-- Mybatis를 적용한 Spring 프레임워크 프로젝트 개발 경험이 있습니다.
+- Redis를 활용하여, I/O가 빈번한 데이터에 대해 캐싱 처리를 할 수 있습니다.
+- pub/sub 모델을 활용하여 사용자와 상호작용하는 애플리케이션을 만들 수 있습니다.
+- Node.js를 통해
 
-#### SqlDeveloper, MongoDB
+#### MySQL, SQL
 
 - 필요한 정보들 SQL 쿼리문을 통해 추출해낼 수 있습니다.
 - RDBMS, NoSQL 각각에 대한 사용 경험이 있습니다.
 
-#### Github
+#### Gitflow, Gitlab
 
-- Git Bash와 Github를 사용해 다른 개발자들과 협업해본 경험이 있습니다.
+- Gitflow를 사용하여 브랜치를 관리하고 협업을 하였습니다.
+- Gitlab을 사용하여 형상관리를 하였습니다.
 
 ---
 
