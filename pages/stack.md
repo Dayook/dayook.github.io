@@ -22,10 +22,11 @@ permalink: /stack
 - pub/sub 모델을 활용하여 사용자와 상호작용하는 애플리케이션을 만들 수 있습니다.
 - Node.js를 통해
 
-#### MySQL, SQL
+#### ElasticSearch, MySQL, SQL
 
-- 필요한 정보들 SQL 쿼리문을 통해 추출해낼 수 있습니다.
-- RDBMS, NoSQL 각각에 대한 사용 경험이 있습니다.
+- ElasticSearch 쿼리를 통해 필요한 정보를 조회할 수 있습니다.
+  - 간단한 Aggregation이 가능하며 실무에 적용해본 적이 있습니다.
+- SQL 쿼리문을 통해 RDBMS에서 필요한 정보를 조회할 수 있습니다.
 
 #### Gitflow, Gitlab
 
