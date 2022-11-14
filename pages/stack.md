@@ -33,5 +33,4 @@ permalink: /stack
 - Gitlab을 사용하여 형상관리를 하였습니다.
 
 ---
-
-<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/32280aada4a554a1c2d0c6f5f9c102"/><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
+<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/4e1ad1ba25c86ddba7397066ed011f"/><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
