@@ -24,6 +24,8 @@ permalink: /about
 
 - 2020 공공데이터 언택트 해커톤 아이디어 부문 우수상
 을 수상한 적이 있습니다.
+
+
 목표를 이루며 느꼈던 성취감을 자양분으로, 프로젝트 진행 시 어려운 상황에도 꾸준히 노력하는 자세를 유지하고 있습니다.
 
 [📒 노션 이력서 바로가기](https://iridescent-draw-309.notion.site/Resume-ab19bbfa8ff1472182ade1129fb2addb){:target="\_blank"}
