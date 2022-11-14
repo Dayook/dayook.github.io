@@ -20,7 +20,6 @@ permalink: /stack
 
 - Redis를 활용하여, I/O가 빈번한 데이터에 대해 캐싱 처리를 할 수 있습니다.
 - pub/sub 모델을 활용하여 사용자와 상호작용하는 애플리케이션을 만들 수 있습니다.
-- Node.js를 통해
 
 #### ElasticSearch, MySQL, SQL
 
