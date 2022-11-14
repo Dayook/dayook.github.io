@@ -29,6 +29,5 @@ permalink: /about
 
 
 목표를 이루며 느꼈던 성취감을 자양분으로, 프로젝트 진행 시 어려운 상황에도 꾸준히 노력하는 자세를 유지하고 있습니다.
-또한, 실무에서 개발 시에도 비즈니스 로직에 대한 이해를 우선하여 작업하고 있습니다.
 
 [📒 노션 이력서 바로가기](https://iridescent-draw-309.notion.site/Resume-ab19bbfa8ff1472182ade1129fb2addb){:target="\_blank"}
