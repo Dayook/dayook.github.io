@@ -8,6 +8,7 @@ permalink: /stack
 
 - JavaScript 및 TypeScript를 익혀 실무에 적용하고 배포한 경험이 있습니다.
     - JavaScript로 쓰인 프로젝트를 TypeScript로 전환해본 경험이 있습니다.
+    - React Component, Hook을 TypeScript로 작성할 수 있습니다.
 - 렌더링을 고려하여 화면 개발을 할 수 있습니다.
 - React를 사용한 개인 프로젝트 개발 경험이 있습니다.
 
