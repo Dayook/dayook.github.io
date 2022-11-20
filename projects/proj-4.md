@@ -14,10 +14,10 @@ title: "브릭챗(메신저 + 브릭)"
 **개발환경 　　 ┃** React, GraphQL, RabbitMQ, Redis, ElasticSearch
 
 #####  서비스 url 
-- [서비스 링크 1](https://smarthippo.kr/)
-- [서비스 링크 2](https://www.moccasom.co.kr/)
-- [서비스 링크 3](https://fromdayone.co.kr/)
-- [새창 링크 1](https://chat.brickchat.co.kr/chat/c13977f0-e4bf-43d7-ba0a-426a30fe5907)
+- [새창 링크 1](https://chat.brickchat.co.kr/chat/c13977f0-e4bf-43d7-ba0a-426a30fe5907){:target="_blank"}
+- [서비스 링크 1](https://smarthippo.kr/){:target="_blank"}
+- [서비스 링크 2](https://www.moccasom.co.kr/){:target="_blank"}
+- [서비스 링크 3](https://fromdayone.co.kr/){:target="_blank"}
 
 해당 서비스는 쇼핑몰 홈페이지 하단에 부착되어, 고객이 메신저 아이콘을 클릭하고 메시지를 전송함에 따라 동작합니다.
 모바일 환경에서는, 인트로 아이콘 클릭 시 '새창 링크 1'처럼  쇼핑몰과 분리된 새로운 창에서 메신저를 실행할 수 있습니다.
