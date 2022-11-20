@@ -4,6 +4,9 @@ title: Tech Stacks
 permalink: /stack
 ---
 
+<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/4e1ad1ba25c86ddba7397066ed011f"/><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
+
+---
 #### JavaScript, TypeScript, React
 
 - JavaScript 및 TypeScript를 익혀 실무에 적용하고 배포한 경험이 있습니다.
@@ -33,5 +36,3 @@ permalink: /stack
 - Gitflow를 사용하여 브랜치를 관리하고 협업을 하였습니다.
 - Gitlab을 사용하여 형상관리를 하였습니다.
 
----
-<a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/4e1ad1ba25c86ddba7397066ed011f"/><script async src="https://cdn1.stackshare.io/javascripts/client-code.js" charset="utf-8"></script>
