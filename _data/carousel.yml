@@ -2,3 +2,8 @@ images:
   - image: /assets/img/projects/proj-1/bitlibrary1.png
   - image: /assets/img/projects/proj-1/bitlibrary2.png
   - image: /assets/img/projects/proj-1/bitlibrary3.png
+
+brickImages:
+  - image: /assets/img/projects/proj-4/brick1.jpg
+  - image: /assets/img/projects/proj-4/brick2.jpg
+  - image: /assets/img/projects/proj-4/brick3.jpg
