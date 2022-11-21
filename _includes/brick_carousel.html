@@ -3,7 +3,7 @@
 
 <div class="carousel__holder">
     <div class="carousel">
-        {% for item in site.data.carousel.images %}
+        {% for item in site.data.carousel.brickImages %}
           <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
         {% for item in site.data.carousel.brickImages %}
@@ -26,13 +26,13 @@
         {% endfor %}
         <div class="carousel__track">
           <ul>
-            {% for item in site.data.carousel.images %}
+            {% for item in site.data.carousel.brickImages %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
             {% endfor %}
           </ul>
         </div>
         <div class="carousel__indicators">
-            {% for item in site.data.carousel.images %}
+            {% for item in site.data.carousel.brickImages %}
               <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
             {% endfor %}
         </div>
