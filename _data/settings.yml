@@ -13,7 +13,7 @@ menu:
 
 projects:
  - { name: "상담 오피스", url: "proj-5" }
-  - { name: "상담 메신저", url: "proj-4" }
+ - { name: "상담 메신저", url: "proj-4" }
  
   # - { name: "MEDIKIT", url: "medikit" }
   # - { name: "knock!綠!", url: "knock" }
