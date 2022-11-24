@@ -33,3 +33,4 @@ title: "채팅상담 오피스"
 - RabbitMQ 사용하여 pub/sub모델 구현 - 실시간 상태반영
 - Atomic 디자인 패턴에 기반한 컴포넌트 개발
 - Redis 사용한 캐싱 처리
+
