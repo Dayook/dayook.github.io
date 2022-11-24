@@ -30,7 +30,7 @@ title: "채팅상담 오피스"
 #### 💡 UI 개편에 따른 화면 재개발, 신규 기능 개발
 - 기획자, 디자이너와 소통, 협업 경험
 - React, GrpahQL의 Apollo Client를 통한 상태관리
-- RabbitMQ 사용하여 pub/sub모델 구현 - 실시간 상태반영
+- RabbitMQ 사용하여 pub/sub모델 구현 - 실시간 상태반영(채팅 상담, 챗봇상담 메뉴 개발)
 - Atomic 디자인 패턴에 기반한 컴포넌트 개발
 - Redis 사용한 캐싱 처리
 
