@@ -34,9 +34,9 @@ title: "채팅상담 메신저"
 **💡 검색 기능 개선** 
 
 - 채팅화면 상담내용 검색 기능 사용성 개선
-- ElasticSearch 쿼리 개발
-- 검색용 상태 관리 모듈 개선
-
+  - React 기반, 검색상태 저장 모듈 개선
+- 날짜검색 기능 신규 개발
+  - ElasticSearch 쿼리 개발
 <!-- React와 GraphQL의 ApolloClient를 통해 상태를 관리하고 ElasticSearch  -->
 
 
