@@ -6,7 +6,7 @@ menu:
   - { name: "About", url: "about" }
   - { name: "Stack", url: "stack" }
   - { name: "Projects", url: "" }
-  - { name: "Blog", url: "blog" }
+  # - { name: "Blog", url: "blog" }
 
 #-------------------------------
 # Projects Section
