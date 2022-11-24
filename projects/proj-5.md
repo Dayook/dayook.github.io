@@ -3,7 +3,7 @@ layout: post
 title: "채팅상담 오피스"
 ---
 
-{% include image.html image="projects/proj-5/thumbnail.png" %}
+![office](/assets/img/projects/proj-5/thumbnail.png)
 
 **개발기간 　　 ┃** 2022.08 ~ 2022.11
 
@@ -34,7 +34,7 @@ title: "채팅상담 오피스"
 - Atomic 디자인 패턴에 기반한 컴포넌트 개발
 - Redis 사용한 캐싱 처리
 
-**형상관리 /배포** 
+**💡 형상관리 /배포** 
 - GitLab, Git-flow 활용 형상관리
 - GCP 배포 경험
 
