@@ -3,7 +3,7 @@ layout: post
 title: "채팅상담 오피스"
 ---
 
-
+{% include image.html image="projects/proj-5/thumbnail.png" %}
 
 **개발기간 　　 ┃** 2022.08 ~
 
